@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 nycflights13 es un dataset que contiene información sobre vuelos de US. Si es necesario instala el paquete. Crear un nuevo proyecto de R con el nombre TrabajoPersonal. Recordar que debéis enviar tanto el fichero RMD y html comprimidos en un zip. Por favor, seguir el formato siguiente para entregar el trabajo: TrabajoPersonal_NombreApellido.zip.
 
 ```{r}
-install.packages("nycflights13")
+#install.packages("nycflights13")
 library(nycflights13)
 library(dplyr)
 ```
