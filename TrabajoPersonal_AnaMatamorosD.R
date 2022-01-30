@@ -1,10 +1,10 @@
 
-nycflights13 es un dataset que contiene información sobre vuelos de US. Si es necesario instala el paquete. Crear un nuevo proyecto de R con el nombre TrabajoPersonal. Recordar que debéis enviar tanto el fichero RMD y html comprimidos en un zip. Por favor, seguir el formato siguiente para entregar el trabajo: TrabajoPersonal_NombreApellido.zip.
+#nycflights13 es un dataset que contiene información sobre vuelos de US. Si es necesario instala el paquete. Crear un nuevo proyecto de R con el nombre TrabajoPersonal. Recordar que debéis enviar tanto el fichero RMD y html comprimidos en un zip. Por favor, seguir el formato siguiente para entregar el trabajo: TrabajoPersonal_NombreApellido.zip.
 
 
-install.packages("nycflights13")
-library(nycflights13)
-library(dplyr)
+#install.packages("nycflights13")
+#library(nycflights13)
+#library(dplyr)
 
 
 ## 1. Encuentra todos los vuelos que llegaron más de una hora tarde de lo previsto.
@@ -35,7 +35,7 @@ View(operac)
 
 
 ## 4. Encuentra todos los vuelos que salieron los meses de primavera (Abril, Mayo y Junio)
-Los meses de primavera son: 4, 5 y 6 
+#Los meses de primavera son: 4, 5 y 6 
 
 primav <- filter(flights, month == 4 | month == 5 | month == 6)
 View(primav)
@@ -246,7 +246,7 @@ flights_dt %>%
   print(n = Inf)
 
 
-Se recomienda salir los dias 4, 6, 15 o 29 de cada mes. 
+#Se recomienda salir los dias 4, 6, 15 o 29 de cada mes. 
 
 ## 22. Para cada destino, calcula el total de minutos de retraso acumulado.
 
